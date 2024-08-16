@@ -1,0 +1,1 @@
+Simple drawing tool that runs in a browser built using HTML, CSS, and Javascript
