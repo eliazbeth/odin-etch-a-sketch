@@ -14,7 +14,7 @@ function changeSize()
     const squares = document.querySelectorAll(".square");
     squares.forEach((square) => { grid.removeChild(square); }); 
     size = prompt("Enter a size for the grid: ");    
-    squareSize = 200/size;    // Square height/width are total pixels(200) divided by number of columns/rows
+    squareSize = 500/size;    // Square height/width are total pixels(200) divided by number of columns/rows
     console.log(size);
     console.log(squareSize);
     for (i = 0; i < size; i++)
